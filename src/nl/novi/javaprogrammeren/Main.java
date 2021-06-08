@@ -1,5 +1,6 @@
 package nl.novi.javaprogrammeren;
 
+import nl.novi.javaprogrammeren.overerving.ApolloRocket;
 import nl.novi.javaprogrammeren.overerving.Rocket;
 
 public class Main {
@@ -13,13 +14,11 @@ public class Main {
     Maak vervolgens in deze klasse een ApolloRocket object aan en roep de toString()-methode aan.
      */
 
-    /*BvS 13:10 */
     public static void main(String[] args) {
         Rocket genericRocket = new Rocket(100);
-
         genericRocket.fly(10);
         System.out.println(genericRocket.toString());
-
-
+        ApolloRocket apolloRocket = new ApolloRocket(100,5);
+        System.out.println(apolloRocket.toString());
     }
 }

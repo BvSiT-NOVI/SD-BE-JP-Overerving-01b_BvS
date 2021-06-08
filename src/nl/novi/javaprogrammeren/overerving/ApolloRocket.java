@@ -5,8 +5,10 @@ public class ApolloRocket extends Rocket {
     public int amountOfRocketEngines;
 
     // We roepen hier de constructor aan van Rocket
-    public ApolloRocket(int maximumFuel) {
+    public ApolloRocket(int maximumFuel, int amountOfRocketEngines)
+    {
         super(maximumFuel);
+        this.amountOfRocketEngines=amountOfRocketEngines;
     }
 
     @Override
