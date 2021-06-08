@@ -13,6 +13,7 @@ public class Main {
     Maak vervolgens in deze klasse een ApolloRocket object aan en roep de toString()-methode aan.
      */
 
+    /*BvS 13:10 */
     public static void main(String[] args) {
         Rocket genericRocket = new Rocket(100);
 
